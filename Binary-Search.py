@@ -15,4 +15,6 @@ def binary_search(nums, target):
 
 list = [1,2,3,4,5]
 
-print(binary_search(list, 3))
+print(binary_search(list, 3)) 
+
+# the above print statement prints 2 because the number 3 is at the index of 2. (REMEMBER: python lists are zero-index based, meaning they start at zero.)
